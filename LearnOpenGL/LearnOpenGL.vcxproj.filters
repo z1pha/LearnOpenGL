@@ -18,23 +18,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="src\glad.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader.h">
+    <ClInclude Include="includes\shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\window.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader.vs">
+    <None Include="src\shader\shader.vs">
       <Filter>shaders</Filter>
     </None>
-    <None Include="shader.fs">
+    <None Include="src\shader\shader.fs">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>
